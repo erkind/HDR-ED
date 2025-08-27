@@ -1,6 +1,7 @@
+# Minimal example for the CGA estimation of the classical EIV model
+#
 # Reference : Satman and Diyarbakirlioglu (2015), "Reducing EIV bias in
-# linear regression using CGA's", J of Statistical Computation and
-# Simulation
+# linear regression using CGA's", J. of Stat. Computation and Simulation
 #
 # Importing data
 data <- read.csv(file = paste("http://raw.githubusercontent.com/",
@@ -29,4 +30,3 @@ rownames(fit_cga_coef) <- c("(Intercept)", "X1_CGA", "X2")
 fit_ols_coef
 fit_eiv_coef
 fit_cga_coef
-
