@@ -5,7 +5,7 @@
 #
 # Importing data
 data <- read.csv(file = paste("http://raw.githubusercontent.com/",
-                              "erkind/hdr-ed/main/",
+                              "erkind/HDR-ED/main/",
                               "jscs-2015-artificial.csv", sep = ""),
                  header = TRUE, sep = ";")
 attach(data)
